@@ -1,0 +1,53 @@
+body{
+    margin-left: 100px;
+    margin-right: 120px;
+}
+
+.container{
+    background-color: rgb(245, 230, 236);
+}
+.baner-text{
+    color: rgb(247, 174, 39);
+}
+.image img{
+    width: 300px;
+    height: 50px;
+}
+.image-2 img{
+    width: 300px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: 70px;
+}
+.logo{
+    height: 550px;
+    width: 550px;
+}
+.info-image img{
+    height: 700px;
+    width: 700px;
+}
+.container-2{
+    margin-top: 140px;
+}
+.container-3{
+    margin-top: 140px;
+}
+.last-part{
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
+.logo-image img{
+    width: 50px;
+    height: 50px;
+}
+@media(max-width: 668px){
+   .container-2{
+       display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   } 
+
+}
+
+
